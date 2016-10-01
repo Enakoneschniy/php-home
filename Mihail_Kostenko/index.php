@@ -2,9 +2,9 @@
 
 echo "<h1>Hello World</h1>";
 
-$name = 'Петя';
-$user_name = "Меня зовут: $name";
+$name = 'РџРµС‚СЏ';
+$user_name = "РњРµРЅСЏ Р·РѕРІСѓС‚: $name";
 ?>
 
-<span>Меня зовут: <strong><? echo "$name" ?></strong></span><br>
-<span>Меня зовут: <strong><?=$user_name?></strong></span>
+<span>РњРµРЅСЏ Р·РѕРІСѓС‚: <strong><? echo "$name" ?></strong></span><br>
+<span>РњРµРЅСЏ Р·РѕРІСѓС‚: <strong><?=$user_name?></strong></span>
