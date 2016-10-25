@@ -100,7 +100,22 @@
         for ($i = 0; $i < $length; $i++) {
             $array[$i] = mt_rand(1, 10);
         }
-        $arrUniq = array_unique($array);
+        echo "<pre>";
+        var_dump($array);
+        echo"</pre>";
+        $arrUniq = [];
+        $uniq = true;
+        for ($i = 0; $i < count($array); $i++) {
+            $uniq = true;
+            for ($j = 0; $j < count($arrUniq); $j++) {
+                if ($array[$i] == $arrUniq[$j]) {
+                    $uniq = false;
+                }
+            }
+            if ($uniq == true) {
+                $arrUniq[] = $array[$i];
+            }
+        }
         echo "<pre>";
         var_dump($arrUniq);
         echo"</pre>";
