@@ -1,0 +1,57 @@
+* {
+	background-color: #ccc;
+	font-family: sans-serif;
+}
+
+#form {
+	background-color: #fc0;
+	width: 450px;
+	height: 100px;
+	padding-top: 10px;
+	margin-top: 10px;
+	border: 4px groove; 
+}
+
+#submit {
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+label {
+	background-color: #fc0;
+}
+
+#answer {
+	background-color: #fc0; 
+	width: 450px;
+	height: 180px;
+	border: 4px groove;
+	overflow: auto;
+}	
+
+#phon {
+	background-color: #fc0;
+}
+
+#form2 {
+	background-color: #fc0;
+	width: 450px;
+	height: 240px;
+	padding-top: 10px;
+	margin-top: 10px;
+	border: 4px groove;
+	overflow: auto;
+}
+
+textarea {
+	margin-left: 147px;
+}
+
+#error {
+	background-color: #fc0;
+	color: red;
+	width: 450px;
+	height: 25px;
+	font-weight: bold;
+
+}
